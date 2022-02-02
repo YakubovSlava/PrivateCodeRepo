@@ -8,3 +8,6 @@
 /conditional_dcgan/MNIST_img/
 /Pix2Pix/maps/
 /Pix2Pix/examples/
+/Pix2Pix/discriminator_model.pth
+/Pix2Pix/generator_model.pth
+/MADMO_1st_Homework/data/
