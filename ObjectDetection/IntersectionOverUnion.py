@@ -36,7 +36,8 @@ if __name__ == "__main__":
     ))
 
     print(intersection_over_union(
-        torch.tensor([[3, 2, 2, 2]]),
         torch.tensor([[5, 4, 4, 4]]),
+        torch.tensor([[3, 2, 2, 2]])
+        ,
         type='centers'
     ))
