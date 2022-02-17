@@ -1,8 +1,11 @@
 import torch
 
 
-def intersection_over_union(boxes_preds, boxes_real, type='corners'):
+def intersection_over_union(boxes_preds, boxes_real, type='corners', unsqueeze=False):
 
+    if unsqueeze:
+        boxes_preds = boxes_preds.unsqueeze(0)
+        boxes_real = boxes_real.unsqueeze(0)
     if type == 'corners':
         box1_x1, box1_y1, box1_x2, box1_y2 = boxes_preds[:, 0], boxes_preds[:, 1], boxes_preds[:, 2], boxes_preds[:, 3]
         box2_x1, box2_y1, box2_x2, box2_y2 = boxes_real[:, 0], boxes_real[:, 1], boxes_real[:, 2], boxes_real[:, 3]
@@ -40,4 +43,11 @@ if __name__ == "__main__":
         torch.tensor([[3, 2, 2, 2]])
         ,
         type='centers'
+    ))
+    print(intersection_over_union(
+        torch.tensor([5, 4, 4, 4]),
+        torch.tensor([3, 2, 2, 2])
+        ,
+        type='centers',
+        unsqueeze=True
     ))
