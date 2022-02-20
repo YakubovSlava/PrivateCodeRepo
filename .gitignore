@@ -12,3 +12,7 @@
 /Pix2Pix/generator_model.pth
 /MADMO_1st_Homework/data/
 /MADMO_1st_Homework/model.pth
+/MADMO_2nd_homework/merged_data/
+/MADMO_2nd_homework/cancer_dataset/
+/MADMO_2nd_homework/inception.pth
+/MADMO_2nd_homework/vgg16.pth
