@@ -54,6 +54,7 @@ def put_bboxes(image):
             image = cv2.addWeighted(overlay, 0.6, image, 0.4, 0)
             cv2.putText(image, text, (x, y - 5), cv2.FONT_HERSHEY_SIMPLEX,
                 fontScale=font_scale, color=(0, 0, 0), thickness=thickness)
+    print(boxes, confidences, class_ids)
     return image
 
 cap = cv2.VideoCapture(0)
