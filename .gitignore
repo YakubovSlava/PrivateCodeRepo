@@ -78,3 +78,16 @@
 /detection2/1234_yolo3..jpg
 /detection2/res.jpg
 /compleete_vkr/dataset/
+/compleete_vkr/benchmarks/srgan/model/
+/compleete_vkr/benchmarks/srgan/srgan_gen_540.pth
+/compleete_vkr/benchmarks/srgan/srgan_gen_430.pth
+/compleete_vkr/benchmarks/srgan/cats_nearest/
+/compleete_vkr/benchmarks/srgan/dogs_refactored/
+/compleete_vkr/benchmarks/srgan/cats_small/
+/compleete_vkr/benchmarks/srgan/cats_refactored/
+/compleete_vkr/benchmarks/srgan/dogs_bicubic/
+/compleete_vkr/benchmarks/srgan/cats_bicubic/
+/compleete_vkr/benchmarks/srgan/cats_orig/
+/compleete_vkr/benchmarks/srgan/dogs_nearest/
+/compleete_vkr/benchmarks/srgan/dogs_orig/
+/compleete_vkr/benchmarks/srgan/dogs_small/
